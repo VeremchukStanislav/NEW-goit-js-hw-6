@@ -77,3 +77,15 @@ const getTotalBalanceByGender = (users, gender) => {
 
 console.log(getTotalBalanceByGender(users, 'male'));//12053.
 console.log(getTotalBalanceByGender(users, 'female'));//8863.
+
+// const getTotalBalanceByGender = (users, gender, total = 0) => {
+//    users.filter(user => user.gender === gender)
+//  .forEach(user => {
+//    total += user.balance
+   
+// })
+// return total
+// }
+
+// console.log(getTotalBalanceByGender(users, 'male'));//12053.
+// console.log(getTotalBalanceByGender(users, 'female'));//8863.
